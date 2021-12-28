@@ -196,7 +196,7 @@ test_set[,c(32:50)] <- NULL
                   #tuneGrid = data.frame(degree=1,scale=1,C=1))
 
 
-#Going with the models made in M3: Step-wise
+#Going with Step-wise
 Model1 <- glm(TARGET_FLAG ~ AGE + BLUEBOOK + TRAVTIME + KIDSDRIV + SEX + URBANICITY + HOMEKIDS + 
                 CLM_FREQ + REVOKED + MVR_PTS + CAR_AGE + TIF + EDUCATION + MSTATUS + PARENT1 + RED_CAR + 
                 CAR_USE + CAR_TYPE + YOJ + JOB + INCOME_bin + HOME_VAL, 
